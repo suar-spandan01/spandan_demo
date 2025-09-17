@@ -1,0 +1,30 @@
+#cal {
+    position: relative;
+    left: 30vw;
+    top: 20vh;
+    border: 5px solid  rgb(67, 66, 66);
+    border-radius: 5px;
+    width: 200px;
+    background-color: powderblue;
+}
+#display{
+    margin:10px;
+    width: 85%;
+    font-size: 25px;
+}
+.button-container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.button{
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+}
+.button:hover{
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    background-color: bisque;
+}
